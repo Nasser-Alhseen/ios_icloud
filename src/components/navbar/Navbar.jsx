@@ -16,7 +16,7 @@ const Navbar = () => {
         
         <div className="gpt3__navbar-links_container">
           <button type="button" className="nav-btn">
-            <a href="#home">الرئيسية</a>
+            <a href="#home"><p>الرئيسية</p></a>
           </button>
           <button type="button" className="nav-btn">
             <a href="#home">الخطوات</a>

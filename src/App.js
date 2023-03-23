@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Footer, Blog, Features, WhatGPT3, Header } from './containers';
 import {  Brand, Navbar } from './components';
-
+import Type from '../src/containers/header/Type'
 import './App.css';
 
 const App = () => (
@@ -13,12 +13,12 @@ const App = () => (
       <div className='header-title'>
 <h2 >حرر جهازك من الآيكلاود
 </h2>
+<Type/>
 </div>
     </div>
     <Brand />
     <WhatGPT3 />
     <Features/>
-    {/* <Blog /> */}
     <Footer />
   </div>
 );

@@ -1,10 +1,22 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './features.css';
+import forwardIcon from '../../assets/whatsapp.png';
 
 const Features = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+    <div className="gpt3__footer-links_div">
+        <h4>تواصل معنا</h4>
+        <p>+96170400713</p>
+      
+        <div className="soc">
+          <a href="https://wa.me/+96170400713">          <img src={forwardIcon} alt="" />
+          </a>
+        </div>
+   
+      </div>
     <div className="gpt3__whatgpt3-feature">
+    
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">حتى الآن</h1>
     </div>    </div>
