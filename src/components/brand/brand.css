@@ -1,0 +1,28 @@
+.gpt3__brand_section__padding{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 120px;height: 120px;
+    display: block;
+}
+.gpt3__brand_section__padding div {
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+    font-family: monospace;
+    color: white;
+    font-size: 28px;
+    margin: 5px;
+}
