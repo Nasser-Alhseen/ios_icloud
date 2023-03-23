@@ -9,22 +9,23 @@ const Navbar = () => {
 
   return (
     <div className="gpt3__navbar">
-      <div className="gpt3__navbar-links">
-        <div className="gpt3__navbar-links_logo">
+      <div className="gpt3__navbar-links_logo">
           <h2>Off Done</h2>
         </div>
+      <div className="gpt3__navbar-links">
+        
         <div className="gpt3__navbar-links_container">
           <button type="button" className="nav-btn">
-            <a href="#home">Home</a>
+            <a href="#home">الرئيسية</a>
           </button>
           <button type="button" className="nav-btn">
-            <a href="#home">Services</a>
+            <a href="#home">الخطوات</a>
           </button>
           <button type="button" className="nav-btn">
-            <a href="#home">Clients</a>
+            <a href="#home">عملائنا</a>
           </button>
           <button type="button" className="nav-btn">
-            <a href="#home">About</a>
+            <a href="#home">حول</a>
           </button>
 
         </div>
@@ -38,16 +39,16 @@ const Navbar = () => {
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
               <button type="button" className="nav-btn">
-                <a href="#home">Home</a>
+                <a href="#home">الرئيسية</a>
               </button>
               <button type="button" className="nav-btn">
-                <a href="#home">Services</a>
+                <a href="#home">الخطوات</a>
               </button>
               <button type="button" className="nav-btn">
-                <a href="#home">Clients</a>
+                <a href="#home">عملائنا</a>
               </button>
               <button type="button" className="nav-btn">
-                <a href="#home">About</a>
+                <a href="#home">حول</a>
               </button>
             </div>
 

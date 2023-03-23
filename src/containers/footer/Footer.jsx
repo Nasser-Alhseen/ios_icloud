@@ -13,19 +13,14 @@ const Footer = () => (
       </div>
 
       <div className="gpt3__footer-links_div">
-        <h4>Get in touch</h4>
-        <p>7161643</p>
+        <h4>تواصل معنا</h4>
+        <p>+96170400713</p>
         <p>icloud@gmail.com</p>
-   <div className="social">
-   <div className="soc">
-          <a href="">          <img src={downloadIcon} alt="" />
-          </a>
-        </div>
         <div className="soc">
-          <a href="">          <img src={forwardIcon} alt="" />
+          <a href="https://wa.me/+96170400713">          <img src={forwardIcon} alt="" />
           </a>
         </div>
-   </div>
+   
       </div>
     </div>
 

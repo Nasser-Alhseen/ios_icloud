@@ -11,14 +11,14 @@ const App = () => (
       <Navbar />
       <Header />
       <div className='header-title'>
-<h2 >Free Your iOS Devices
+<h2 >حرر جهازك من الآيكلاود
 </h2>
 </div>
     </div>
     <Brand />
     <WhatGPT3 />
     <Features/>
-    <Blog />
+    {/* <Blog /> */}
     <Footer />
   </div>
 );

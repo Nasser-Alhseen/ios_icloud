@@ -5,16 +5,16 @@ function Type() {
   return (
     
     <Typewriter
-      options={{delay:50,
+      options={{delay:40,
         strings: [
           `<h1 class="gradient__text" style='font-family: monospace;'>
-            Icloud Accounts Unlock
+           آيفون
           </h1>`,
           `<h1 class="gradient__text" style='font-family: monospace;'>
-          Guranteed Results
+          آيباد
         </h1>`,
         `<h1 class="gradient__text" style='font-family: monospace;'>
-         By a proffesional Team
+         ماك وكذلك ساعات آبل
       </h1>`
          
         ],
