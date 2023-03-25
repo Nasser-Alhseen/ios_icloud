@@ -10,7 +10,8 @@ const Features = () => (
         <p>+96170400713</p>
       
         <div className="soc">
-          <a href="https://wa.me/+96170400713">          <img src={forwardIcon} alt="" />
+          <a href="https://wa.me/+96170400713">    
+              <img src={forwardIcon} alt="" />
           </a>
         </div>
    
