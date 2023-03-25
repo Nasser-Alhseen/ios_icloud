@@ -12,10 +12,16 @@
     font-size: 25px;
     font-family:'Tajawal',sans-serif,;
 }
+.gpt3__navbar-links_logo h2{
+    font-family: monospace;
+}
 .twriter_title{
     height: 50px;
     margin-right: 10px;
     padding: 10px;
+}
+.gpt3__navbar-menu{
+    z-index: 2;
 }
 .twriter{
     height: 50px;
@@ -28,7 +34,7 @@
  background-color: rgb(65, 61, 61);
  width: 150px;
  height: 40px;
- font-family:'Tajawal',sans-serif,;
+ font-family:monospace;
 
  border: none;
  color: white;

@@ -3,7 +3,7 @@ import './footer.css';
 import downloadIcon from '../../assets/facebook.png';
 import forwardIcon from '../../assets/whatsapp.png';
 const Footer = () => (
-  <div className="gpt3__footer section__padding">
+  <div className="gpt3__footer section__padding" id='footer'>
 
 
 
@@ -15,9 +15,10 @@ const Footer = () => (
       <div className="gpt3__footer-links_div">
         <h4>تواصل معنا</h4>
         <p>+96170400713</p>
-        <p>icloud@gmail.com</p>
+        <p>ratebalhseen2023@gmail.com</p>
         <div className="soc">
-          <a href="https://wa.me/+96170400713">          <img src={forwardIcon} alt="" />
+          <a href="https://wa.me/+96170400713">   
+                 <img src={forwardIcon} alt="" />
           </a>
         </div>
    

@@ -4,7 +4,7 @@ import './features.css';
 import forwardIcon from '../../assets/whatsapp.png';
 
 const Features = () => (
-  <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+  <div className="gpt3__whatgpt3 section__margin" id="wgpt3-f">
     <div className="gpt3__footer-links_div">
         <h4>تواصل معنا</h4>
         <p>+96170400713</p>
@@ -22,10 +22,10 @@ const Features = () => (
     </div>    </div>
 
     <div className="gpt3__whatgpt3-container">
-      <Feature title="150" text="عددالعملاء المميزين" />
-      <Feature title="120" text="عدد أجهزة أبل التي قمنا بفتحها وجعلنا أصحابها سعداء" />
-      <Feature title="آيفون" text="96" />
-      <Feature title="أجهزة آبل الأخرى" text="50" />
+      <Feature title="150" text="عددالعملاء المميزين" id={1}/>
+      <Feature title="180" text="عدد أجهزة أبل التي قمنا بفتحها وجعلنا أصحابها سعداء" id='1'/>
+      <Feature title="142" text="آيفون" id='1'/>
+      <Feature title= '38' text='أجهزة آبل أخرى' id='1'/>
     </div>
   </div>
 );
