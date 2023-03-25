@@ -23,8 +23,9 @@ const WhatGPT3 = () => (
     
 <div>
     <div className="gpt3__whatgpt3-heading">
+      <div className='icloudun'>      <h2 className="gradient__text">كيفية فتح حساب الآيكلاود</h2>
+</div>
 
-      <h2 className="gradient__text">كيفية فتح حساب الآيكلاود</h2>
     </div>
     <div className="gpt3__whatgpt3-container">
       <Card title="تواصل معنا على واتساب" text="قم بالتواصل معنا عبر الواتساب وبتزويدنا برقم الايمي وبعض المعلومات الآخرى" id='1' />
