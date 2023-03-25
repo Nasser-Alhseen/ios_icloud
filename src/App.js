@@ -11,7 +11,7 @@ const App = () => (
       <Navbar />
       <Header />
       <div className="header-title">
-        <h2>حرر جهازك من الآيكلاود</h2>
+        <h2>نقوم بحذف الآيكلاود لل</h2>
         <Type />
       </div>
     </div>

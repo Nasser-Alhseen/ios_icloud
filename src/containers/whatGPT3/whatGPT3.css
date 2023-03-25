@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,700&family=Source+Sans+Pro:wght@300;400;600&family=Tajawal:wght@300;400;700&display=swap');
 *{
     font-family:'Tajawal',sans-serif,;
+    
 }
 
 .gpt3__whatgpt3 {
@@ -30,6 +31,7 @@
 
 .gpt3__whatgpt3-feature {
     display: flex;
+    flex-direction: row;
 }
 
 /* Customizing feature component as per needs */
@@ -68,13 +70,14 @@
     color: var(--color-subtext);
     cursor: pointer;
 }
-
+#wgpt3{
+    
+}
 .gpt3__whatgpt3-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
-    margin-top: 2rem;
+    align-content: space-around;
 }
 
 /* Customizing feature component as per needs */
@@ -106,7 +109,7 @@
 @media screen and (max-width: 650px) {
     /* Customizing feature component as per needs */
     .gpt3__whatgpt3-feature .gpt3__features-container__feature {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     /* Customizing feature component as per needs */

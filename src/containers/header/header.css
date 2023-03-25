@@ -19,6 +19,10 @@
 
     margin-right: 5rem;
 }
+.gradient__text{
+    background-color: rgb(116, 40, 192);
+    text-align: center;
+}
 .contact-container{
     display: flex;flex-direction: row;
 }
@@ -162,6 +166,7 @@
     .gpt3__header-content {
         margin: 0 0 3rem;
     }
+    
 }
 
 @media screen and (max-width: 650px) {

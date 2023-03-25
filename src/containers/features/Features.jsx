@@ -2,7 +2,9 @@ import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './features.css';
 import forwardIcon from '../../assets/whatsapp.png';
-
+import Card from '../../components/card/card';
+import Lottie from "lottie-react";
+import groovyWalkAnimation from "../../assets/client.json";
 const Features = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3-f">
     <div className="gpt3__footer-links_div">
@@ -14,19 +16,25 @@ const Features = () => (
               <img src={forwardIcon} alt="" />
           </a>
         </div>
+        <div>
+        <Lottie      style={{ height: 250 }}
+animationData={groovyWalkAnimation} loop={true} />;
+
+        </div>
    
       </div>
     <div className="gpt3__whatgpt3-feature">
     
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">حتى الآن</h1>
-    </div>    </div>
+    </div>   
+     </div>
 
     <div className="gpt3__whatgpt3-container">
-      <Feature title="150" text="عددالعملاء المميزين" id={1}/>
-      <Feature title="180" text="عدد أجهزة أبل التي قمنا بفتحها وجعلنا أصحابها سعداء" id='1'/>
-      <Feature title="142" text="آيفون" id='1'/>
-      <Feature title= '38' text='أجهزة آبل أخرى' id='1'/>
+      <Card title="150" text="عددالعملاء المميزين" id='2'/>
+      <Card title="180" text="عدد أجهزة أبل التي قمنا بفتحها وجعلنا أصحابها سعداء" id='2'/>
+      <Card title="142" text="آيفون" id='2'/>
+      <Card title= '38' text='أجهزة آبل أخرى' id='2'/>
     </div>
   </div>
 );

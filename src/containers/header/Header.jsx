@@ -11,9 +11,9 @@ const Header = () => (
       <LottieApple />
     </div>
     <div className="gpt3__header-content">
-      <div className="twrite_title">
-        <h1 className="gradient__text" style={{ fontFamily: 'monospace', margin: '10px' }}>
-          مرحبا بك في عالم الآيكلاود             </h1>
+      <div className="gradient__text" style={{ fontSize:'1.7rem',fontFamily: 'monospace' ,textAlign:'center' ,marginRight:'0px' }}>
+      مرحبا بك في عالم الآيكلاود  
+       
 
       </div>
 

@@ -72,9 +72,12 @@
 
 .gpt3__whatgpt3-container {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
+    margin: auto;
+    align-content: space-between;
     flex-direction: row;
-
+margin: auto;
     margin-top: 2rem;
 }
 
